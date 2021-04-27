@@ -1,7 +1,7 @@
 .sidedrawer {
   width: 70%;
+  background: #fff;
   height: 100vh;
-  background: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -28,6 +28,11 @@
   align-items: center;
 }
 
+.sidedrawer__links > li > a:hover {
+  background: #333;
+  color: #f4f4f4;
+}
+
 .sidedrawer__links > li > a {
   display: flex;
   align-items: center;
@@ -40,11 +45,6 @@
   font-size: 1.6rem;
 }
 
-.sidedrawer__links > li > a:hover {
-  background: #171717;
-  color: #f4f4f4;
-}
-
 .sidedrawer__links > li > a > span {
   display: flex;
   align-items: center;
@@ -53,21 +53,20 @@
 
 .sidedrawer__cartbadge {
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
+  background-color: #171717;
   border-radius: 50%;
-  background: #171717;
-  color: #f4f4f4;
-  font-size: 1rem;
   margin-left: 8px;
+  color: #fff;
+  font-size: 1rem;
 }
 
 .sidedrawer__links > li > a:hover .sidedrawer__cartbadge {
+  background-color: #fff;
   color: #171717;
-  background: #f4f4f4;
 }
 
 @media (min-width: 960px) {

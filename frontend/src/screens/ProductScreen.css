@@ -14,10 +14,10 @@
   flex: 0.6;
 }
 
-.left_info {
+.left__info {
   margin: 1rem;
   flex: 0.4;
-  background: white;
+  background: #fff;
   height: fit-content;
   font-size: 0.9rem;
 }
@@ -27,13 +27,13 @@
   font-size: 1.3rem;
 }
 
-.left_info > p,
+.left__info > p,
 .right__info > p {
   padding: 1rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.left_info > p:last-child,
+.left__info > p:last-child,
 .right__info > p:last-child {
   border: none;
 }
@@ -45,8 +45,8 @@
 .right__info {
   width: 250px;
   margin: 1rem;
-  background: white;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .right__info p {
@@ -58,11 +58,13 @@
 
 .right__info p > button {
   grid-column: 1/-1;
+  width: 100%;
   padding: 10px 16px;
   background: #171717;
   color: #f4f4f4;
   border: 1px solid #171717;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .right__info select {
@@ -83,7 +85,7 @@
     flex: 1;
   }
 
-  .left_info {
+  .left__info {
     flex: 1;
   }
 
