@@ -25,6 +25,7 @@
 .info__name {
   font-size: 1rem;
   overflow: hidden;
+  margin-top: 8px;
 }
 
 .info__desription {
